@@ -1,0 +1,144 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #242424;
+      color: #ffffff;
+  }
+  .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+  }
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+  }
+  .navbar img {
+      width: 50px;
+  }
+  .navbar ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+  .navbar ul li {
+      margin: 0 15px;
+  }
+  .navbar ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 1em;
+  }
+  .header {
+      text-align: center;
+      padding: 50px 0;
+  }
+  .header h1 {
+      font-size: 3em;
+      margin: 20px 0 10px;
+  }
+  .header p {
+      font-size: 1.2em;
+      color: #aaaaaa;
+  }
+  .header button {
+      background-color: #ff6600;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  .btn{
+      display: inline-block;
+      
+      
+  }
+  .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 0;
+  }
+  .about-text {
+      width: 50%;
+  }
+  .about-text h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+  }
+  .about-text p {
+      font-size: 1em;
+      color: #aaaaaa;
+  }
+  .about-image img {
+      width: 300px;
+      border-radius: 10px;
+  }
+  .certifications {
+      text-align: center;
+      padding: 50px 0;
+  }
+  .certifications h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+  }
+  .certifications-grid {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  .certification-item {
+      width: 45%;
+      margin: 20px 0;
+  }
+  .certification-item img {
+      width: 100%;
+      border-radius: 10px;
+  }
+  .education {
+      text-align: left;
+      padding: 50px 0;
+  }
+  .education h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+  }
+  .education p {
+      font-size: 1.25em;
+      color: #aaaaaa;
+  }
+  .contact {
+      background-color: #333333;
+      text-align: center;
+      padding: 50px 0;
+  }
+  .contact h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #ff6600;
+  }
+  .contact p {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      font-size: 1em;
+      color: #aaaaaa;
+  }
+  .contact .social-icons {
+      align-items: center;
+      margin-top: 20px;
+  }
+  .contact .social-icons a {
+      color: #ffffff;
+      margin: 0 10px;
+      font-size: 1.5em;
+      text-decoration: none;
+  }
